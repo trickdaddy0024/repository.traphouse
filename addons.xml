@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="repository.demo" name="[COLOR blue]DEMO[COLOR white] Repository[/COLOR]" version="3.0.3" provider-name="Stunna">
+	<extension point="xbmc.addon.repository" name="Demo repository">
+		<info compressed="false">http://kodihelp.online/demo/addons.xml</info>
+		<checksum>http://kodihelp.online/demo/addons.xml.md5</checksum>
+		<datadir zip="true">http://kodihelp.online/demo/</datadir>
+
+            <dir>
+			<info compressed="false">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/</datadir>
+            <hashes>false</hashes>
+			</dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+            </dir>
+			<dir>
+                <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+            </dir>
+
+	</extension>
+	  <extension point="xbmc.addon.metadata">
+		<summary lang="en">Demo Repository</summary>
+		<description lang="en">Visit http://kodihelp.online/demo/ and become a part of the Stunna family, you get to choose what The Community Portal holds!</description>
+		<platform>all</platform>
+		<forum>http://kodihelp.online/</forum>
+		<website>http://kodihelp.online/</website>
+	  <assets>
+		<icon>icon.png</icon>
+		<screenshot>resources/screenshots/screenshot1.jpg</screenshot>
+		<screenshot>resources/screenshots/screenshot2.jpg</screenshot>
+		<screenshot>resources/screenshots/screenshot3.jpg</screenshot>
+		<screenshot>resources/screenshots/screenshot4.jpg</screenshot>
+		<screenshot>resources/screenshots/screenshot5.jpg</screenshot>
+	  </assets>
+	  </extension>
+</addon>
+
+<addon id="repository.traphouse" name="TrapHouse Repositiory" version="0.0.1" provider-name="Stunna">
+	<extension point="xbmc.addon.repository" name="TrapHouse Repositiory">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/trickdaddy0024/repository.traphouse/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/trickdaddy0024/repository.traphouse/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/trickdaddy0024/repository.traphouse/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Demo repository</summary>
+		<description lang="en">Full repository description.</description>
+		<genre>movies,tvshows,wizard,uk,usa</genre>
+	</extension>
+</addon>
+</addons>
